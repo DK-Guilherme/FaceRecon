@@ -23,7 +23,7 @@ while True:
 
       cv.imshow("Face on WebCam", frame)
 
-      #Quando apertar ESQ sair do loop
+      #Quando apertar "Q" sair do loop
     if cv.waitKey(1) & 0xFF == ord('q'):
         break
 
